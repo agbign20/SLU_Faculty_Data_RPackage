@@ -1,0 +1,13 @@
+Package: SLUData
+Title: Datasets from St. Lawrence University Faculty Members' Research
+Version: 0.0.0.9000
+Authors@R: 
+    person("Alyssa", "Bigness", , "agbign20@stlawu.edu", role = c("aut", "cre"))
+Description: Makes use of datasets from other faculty members' research, allowing users to use data from St. Lawrence University that faculty members permit.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Depends: 
+    R (>= 2.10)
+LazyData: true
