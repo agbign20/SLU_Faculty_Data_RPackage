@@ -1,0 +1,19 @@
+---
+title: "RPackageDirections"
+author: "Alyssa Bigness"
+date: "5/3/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Step-by-step instructions to add data sets to an R package
+
+* Upload data set into R
+* Manipulate data set any way you need to
+* Save the data frame as a .RData file
+* Import data set into the global environment
+* Write use_data() where you are creating the package to add it to the data folder of the package
+* Go to file, new file, R Documentation, write same name of file with format of data set, and write description of it
